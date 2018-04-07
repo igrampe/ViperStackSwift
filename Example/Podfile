@@ -2,7 +2,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'ViperStackSwift_Example' do
-  pod 'Swinject', '~> 2.4'
+  pod 'Swinject'
   pod 'SnapKit', '~> 4.0'
 
   pod 'ViperStackSwift', :path => '../'
