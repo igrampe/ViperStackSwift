@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ViperStackSwift_Example' do
+  pod 'ViperStackSwift', :path => '../'
+
+  target 'ViperStackSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
