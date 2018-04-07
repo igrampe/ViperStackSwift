@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ViperStackSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ViperStackSwift.'
+  s.summary          = 'ViperStackSwift helps you with VIPER'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  ViperStackSwift is a library, that provide mechanism for connection between VIPER modules.
+  Also there are some base classes and protocols for VIPER module.
+  With this library you can navigate between modules objects named Segues.
+  Segue is an object, that can customize opening UIViewController and it's animation.
+  ViperStackSwift is wirtten in pure Swift.
+
                        DESC
 
   s.homepage         = 'https://github.com/igrampe/ViperStackSwift'
@@ -37,6 +42,5 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end

@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		50A72D3AE99E5F18315E3C1D /* Pods_ViperStackSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8F28DABDB31BC5E4D36459 /* Pods_ViperStackSwift_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		53AC8C0020792DB900449E14 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BDE20792DB900449E14 /* AppAssembly.swift */; };
+		53AC8C0120792DB900449E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BDF20792DB900449E14 /* AppDelegate.swift */; };
+		53AC8C0220792DB900449E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8BE120792DB900449E14 /* LaunchScreen.xib */; };
+		53AC8C0320792DB900449E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8BE320792DB900449E14 /* Main.storyboard */; };
+		53AC8C0420792DB900449E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8BE520792DB900449E14 /* Images.xcassets */; };
+		53AC8C0520792DB900449E14 /* ChildSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BE820792DB900449E14 /* ChildSegue.swift */; };
+		53AC8C0620792DB900449E14 /* RootAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEC20792DB900449E14 /* RootAssembly.swift */; };
+		53AC8C0720792DB900449E14 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BED20792DB900449E14 /* RootRouterInput.swift */; };
+		53AC8C0820792DB900449E14 /* RootInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */; };
+		53AC8C0920792DB900449E14 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEF20792DB900449E14 /* RootInteractor.swift */; };
+		53AC8C0A20792DB900449E14 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF020792DB900449E14 /* RootRouter.swift */; };
+		53AC8C0B20792DB900449E14 /* RootViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF120792DB900449E14 /* RootViewIO.swift */; };
+		53AC8C0C20792DB900449E14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF220792DB900449E14 /* RootView.swift */; };
+		53AC8C0D20792DB900449E14 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF320792DB900449E14 /* RootPresenter.swift */; };
+		53AC8C0E20792DB900449E14 /* RootModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF420792DB900449E14 /* RootModuleIO.swift */; };
+		53AC8C0F20792DB900449E14 /* ChildInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */; };
+		53AC8C1020792DB900449E14 /* ChildAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF820792DB900449E14 /* ChildAssembly.swift */; };
+		53AC8C1120792DB900449E14 /* ChildRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF920792DB900449E14 /* ChildRouter.swift */; };
+		53AC8C1220792DB900449E14 /* ChildViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFA20792DB900449E14 /* ChildViewIO.swift */; };
+		53AC8C1320792DB900449E14 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFB20792DB900449E14 /* ChildView.swift */; };
+		53AC8C1420792DB900449E14 /* ChildPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFC20792DB900449E14 /* ChildPresenter.swift */; };
+		53AC8C1520792DB900449E14 /* ChildInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFD20792DB900449E14 /* ChildInteractor.swift */; };
+		53AC8C1620792DB900449E14 /* ChildModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */; };
+		53AC8C1720792DB900449E14 /* ChildRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F2212B4BC3A93F85DBCF6027 /* Pods_ViperStackSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAA04227DE4AE1893C4BFE6 /* Pods_ViperStackSwift_Example.framework */; };
 /* End PBXBuildFile section */
@@ -30,22 +49,41 @@
 /* Begin PBXFileReference section */
 		1DAA04227DE4AE1893C4BFE6 /* Pods_ViperStackSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperStackSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		349679B81F172CCF6543594D /* Pods-ViperStackSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStackSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStackSwift_Tests/Pods-ViperStackSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53AC8BDE20792DB900449E14 /* AppAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		53AC8BDF20792DB900449E14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53AC8BE220792DB900449E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		53AC8BE420792DB900449E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53AC8BE520792DB900449E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53AC8BE820792DB900449E14 /* ChildSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildSegue.swift; sourceTree = "<group>"; };
+		53AC8BEC20792DB900449E14 /* RootAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootAssembly.swift; sourceTree = "<group>"; };
+		53AC8BED20792DB900449E14 /* RootRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
+		53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8BEF20792DB900449E14 /* RootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		53AC8BF020792DB900449E14 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		53AC8BF120792DB900449E14 /* RootViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewIO.swift; sourceTree = "<group>"; };
+		53AC8BF220792DB900449E14 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		53AC8BF320792DB900449E14 /* RootPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		53AC8BF420792DB900449E14 /* RootModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootModuleIO.swift; sourceTree = "<group>"; };
+		53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8BF820792DB900449E14 /* ChildAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildAssembly.swift; sourceTree = "<group>"; };
+		53AC8BF920792DB900449E14 /* ChildRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouter.swift; sourceTree = "<group>"; };
+		53AC8BFA20792DB900449E14 /* ChildViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewIO.swift; sourceTree = "<group>"; };
+		53AC8BFB20792DB900449E14 /* ChildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		53AC8BFC20792DB900449E14 /* ChildPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildPresenter.swift; sourceTree = "<group>"; };
+		53AC8BFD20792DB900449E14 /* ChildInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractor.swift; sourceTree = "<group>"; };
+		53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildModuleIO.swift; sourceTree = "<group>"; };
+		53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouterInput.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ViperStackSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperStackSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ViperStackSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperStackSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8927CA532953D223C9887D75 /* Pods-ViperStackSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStackSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStackSwift_Tests/Pods-ViperStackSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96510410032538F42EDD3DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B0D3EAC776AD0C45CAF17B28 /* ViperStackSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ViperStackSwift.podspec; path = ../ViperStackSwift.podspec; sourceTree = "<group>"; };
+		96510410032538F42EDD3DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0D3EAC776AD0C45CAF17B28 /* ViperStackSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ViperStackSwift.podspec; path = ../ViperStackSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4778DFD4C3506C21588B34B /* Pods-ViperStackSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStackSwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStackSwift_Example/Pods-ViperStackSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B69FB1BC44CA14620DD7BBAC /* Pods-ViperStackSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperStackSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperStackSwift_Example/Pods-ViperStackSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C079276289F5208D6C52B83F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C079276289F5208D6C52B83F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ED8F28DABDB31BC5E4D36459 /* Pods_ViperStackSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperStackSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +116,98 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		53AC8BDD20792DB900449E14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BDE20792DB900449E14 /* AppAssembly.swift */,
+				53AC8BDF20792DB900449E14 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53AC8BE020792DB900449E14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BE120792DB900449E14 /* LaunchScreen.xib */,
+				53AC8BE320792DB900449E14 /* Main.storyboard */,
+				53AC8BE520792DB900449E14 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53AC8BE620792DB900449E14 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BE720792DB900449E14 /* Segues */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		53AC8BE720792DB900449E14 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BE820792DB900449E14 /* ChildSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		53AC8BE920792DB900449E14 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BEA20792DB900449E14 /* Push */,
+				53AC8BEB20792DB900449E14 /* Root */,
+				53AC8BF520792DB900449E14 /* Modal */,
+				53AC8BF620792DB900449E14 /* Child */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		53AC8BEA20792DB900449E14 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		53AC8BEB20792DB900449E14 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BEC20792DB900449E14 /* RootAssembly.swift */,
+				53AC8BED20792DB900449E14 /* RootRouterInput.swift */,
+				53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */,
+				53AC8BEF20792DB900449E14 /* RootInteractor.swift */,
+				53AC8BF020792DB900449E14 /* RootRouter.swift */,
+				53AC8BF120792DB900449E14 /* RootViewIO.swift */,
+				53AC8BF220792DB900449E14 /* RootView.swift */,
+				53AC8BF320792DB900449E14 /* RootPresenter.swift */,
+				53AC8BF420792DB900449E14 /* RootModuleIO.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		53AC8BF520792DB900449E14 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		53AC8BF620792DB900449E14 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */,
+				53AC8BF820792DB900449E14 /* ChildAssembly.swift */,
+				53AC8BF920792DB900449E14 /* ChildRouter.swift */,
+				53AC8BFA20792DB900449E14 /* ChildViewIO.swift */,
+				53AC8BFB20792DB900449E14 /* ChildView.swift */,
+				53AC8BFC20792DB900449E14 /* ChildPresenter.swift */,
+				53AC8BFD20792DB900449E14 /* ChildInteractor.swift */,
+				53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */,
+				53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +232,10 @@
 		607FACD21AFB9204008FA782 /* Example for ViperStackSwift */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				53AC8BDD20792DB900449E14 /* App */,
+				53AC8BE920792DB900449E14 /* Modules */,
+				53AC8BE020792DB900449E14 /* Resources */,
+				53AC8BE620792DB900449E14 /* Shared */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ViperStackSwift";
@@ -213,6 +342,7 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -245,9 +375,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				53AC8C0420792DB900449E14 /* Images.xcassets in Resources */,
+				53AC8C0220792DB900449E14 /* LaunchScreen.xib in Resources */,
+				53AC8C0320792DB900449E14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +434,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ViperStackSwift_Example/Pods-ViperStackSwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/ViperStackSwift/ViperStackSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViperStackSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +456,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				53AC8C1620792DB900449E14 /* ChildModuleIO.swift in Sources */,
+				53AC8C0A20792DB900449E14 /* RootRouter.swift in Sources */,
+				53AC8C1720792DB900449E14 /* ChildRouterInput.swift in Sources */,
+				53AC8C0120792DB900449E14 /* AppDelegate.swift in Sources */,
+				53AC8C1520792DB900449E14 /* ChildInteractor.swift in Sources */,
+				53AC8C0620792DB900449E14 /* RootAssembly.swift in Sources */,
+				53AC8C1420792DB900449E14 /* ChildPresenter.swift in Sources */,
+				53AC8C1220792DB900449E14 /* ChildViewIO.swift in Sources */,
+				53AC8C0920792DB900449E14 /* RootInteractor.swift in Sources */,
+				53AC8C1320792DB900449E14 /* ChildView.swift in Sources */,
+				53AC8C0C20792DB900449E14 /* RootView.swift in Sources */,
+				53AC8C0720792DB900449E14 /* RootRouterInput.swift in Sources */,
+				53AC8C1020792DB900449E14 /* ChildAssembly.swift in Sources */,
+				53AC8C0D20792DB900449E14 /* RootPresenter.swift in Sources */,
+				53AC8C0520792DB900449E14 /* ChildSegue.swift in Sources */,
+				53AC8C0820792DB900449E14 /* RootInteractorIO.swift in Sources */,
+				53AC8C1120792DB900449E14 /* ChildRouter.swift in Sources */,
+				53AC8C0F20792DB900449E14 /* ChildInteractorIO.swift in Sources */,
+				53AC8C0B20792DB900449E14 /* RootViewIO.swift in Sources */,
+				53AC8C0020792DB900449E14 /* AppAssembly.swift in Sources */,
+				53AC8C0E20792DB900449E14 /* RootModuleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,20 +499,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		53AC8BE120792DB900449E14 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				53AC8BE220792DB900449E14 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		53AC8BE320792DB900449E14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AC8BE420792DB900449E14 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -469,11 +622,15 @@
 			baseConfigurationReference = B4778DFD4C3506C21588B34B /* Pods-ViperStackSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ViperStackSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -484,11 +641,15 @@
 			baseConfigurationReference = B69FB1BC44CA14620DD7BBAC /* Pods-ViperStackSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ViperStackSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -498,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8927CA532953D223C9887D75 /* Pods-ViperStackSwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 349679B81F172CCF6543594D /* Pods-ViperStackSwift_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

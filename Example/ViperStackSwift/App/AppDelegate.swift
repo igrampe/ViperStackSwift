@@ -2,20 +2,26 @@
 //  AppDelegate.swift
 //  ViperStackSwift
 //
-//  Created by igrampe on 04/07/2018.
+//  Created by igrampe on 04/06/2018.
 //  Copyright (c) 2018 igrampe. All rights reserved.
 //
 
 import UIKit
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    override init() {
+        super.init()
+        AppAssembly.assembleApp(self)
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window?.rootViewController = AppAssembly.assembler.resolver.resolve(RootView.self)
+        window?.makeKeyAndVisible()
         return true
     }
 
