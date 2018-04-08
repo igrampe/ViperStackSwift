@@ -27,7 +27,9 @@ To customize showing `UIViewController`, you should make a subclass of `BaseSegu
 
 To perform a segue, create a `Segue` object, and call from your `transitionHandler`:
 
-```openModule(withSegue segue: Segue?, linkClosure closure: ModuleLinkClosure?) -> ModuleOpenPromise```
+```swift
+openModule(withSegue segue: Segue?, linkClosure closure: ModuleLinkClosure?) -> ModuleOpenPromise
+```
 
 
 
