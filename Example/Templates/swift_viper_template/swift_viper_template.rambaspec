@@ -1,0 +1,36 @@
+# Template information section
+name: "swift_viper_template"
+summary: "Swift VIPER module template with UIViewController playing as a View."
+author: "Semyon Belokovsky"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/ViewIO.swift,  path: Code/View/view_io.swift.liquid}
+- {name: View/View.swift, path: Code/View/view.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/ModuleIO.swift, path: Code/Presenter/module_io.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/InteractorIO.swift, path: Code/Interactor/interactor_io.swift.liquid}
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# Router layer
+- {name: Router/RouterInput.swift, path: Code/Router/router_input.swift.liquid}
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# Assembly
+- {name: Assembly/Assembly.swift, path: Code/Assembly/assembly.swift.liquid}
+
+# The declarations for test files
+test_files:
+- {name: Tests.swift, path: Tests/tests.swift.liquid}
+
+# Template dependencies
+#dependencies:
+- ViperStackSwift

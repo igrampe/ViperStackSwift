@@ -1,0 +1,17 @@
+{% include 'header' %}
+
+import Foundation
+import ViperStackSwift
+
+class {{ prefix }}{{ module_info.name }}Presenter: {{ prefix }}{{ module_info.name }}ViewOutput, {{ prefix }}{{ module_info.name }}InteractorOutput, {{ prefix }}{{ module_info.name }}ModuleInput {
+    
+    var router: {{ prefix }}{{ module_info.name }}RouterInput?
+    weak var view: {{ prefix }}{{ module_info.name }}ViewInput?
+    var interactor: {{ prefix }}{{ module_info.name }}InteractorInput?
+    
+    weak var moduleOutput: ModuleOutput?
+
+    fileprivate func getModuleOutput() -> {{ prefix }}{{ module_info.name }}ModuleOutput? {
+        return moduleOutput as? {{ prefix }}{{ module_info.name }}ModuleOutput
+    }
+}

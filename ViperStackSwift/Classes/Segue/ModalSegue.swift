@@ -1,13 +1,13 @@
 //
 //  ModalSegue.swift
-//  SBViperStackSwift
+//  ViperStackSwift
 //
 //  Created by Semyon Belokovsky on 07/04/2018.
 //
 
 import UIKit
 
-public class ModalSegue: BaseSegue {
+open class ModalSegue: BaseSegue {
     open override func perform() {
         perform(completion: nil)
     }

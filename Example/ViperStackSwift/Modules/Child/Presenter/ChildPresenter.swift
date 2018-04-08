@@ -9,7 +9,7 @@
 import Foundation
 import ViperStackSwift
 
-class ChildPresenter: ChildViewOutput, ChildInteractorOutput, ChildModuleInput {
+class ChildPresenter: ChildViewOutput, ChildInteractorOutput, ChildModuleInput, ModalModuleOutput {
     
     var router: ChildRouterInput?
     weak var view: ChildViewInput?
@@ -26,10 +26,18 @@ class ChildPresenter: ChildViewOutput, ChildInteractorOutput, ChildModuleInput {
     }
     
     func actionOpenModal() {
-        
+        router?.openModalModule(inNavigation: false)
+    }
+    
+    func actionOpenModalInNavigation() {
+        router?.openModalModule(inNavigation: true)
     }
     
     func actionClose() {
         getModuleOutput()?.childModuleDidFinish()
+    }
+    
+    func modalModuleDidFinish() {
+        router?.closModalModule()
     }
 }

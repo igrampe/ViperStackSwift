@@ -1,6 +1,6 @@
 //
 //  ModuleRouter.swift
-//  SBViperStackSwift
+//  ViperStackSwift
 //
 //  Created by Semyon Belokovsky on 07/04/2018.
 //

@@ -14,6 +14,7 @@ class ChildView: ModuleView, ChildViewInput {
     var output: ChildViewOutput?
     
     var openModalButton: UIButton?
+    var openModalInNavigationButton: UIButton?
     var closeChildButton: UIButton?
     var titleLabel: UILabel?
     
@@ -31,8 +32,15 @@ class ChildView: ModuleView, ChildViewInput {
         openModalButton = UIButton(type: .system)
         openModalButton?.setTitle("Open Modal", for: .normal)
         openModalButton?.addTarget(output, action: #selector(ChildViewOutput.actionOpenModal), for: .touchUpInside)
-        if let openChildButton = openModalButton {
-            view.addSubview(openChildButton)
+        if let openModalButton = openModalButton {
+            view.addSubview(openModalButton)
+        }
+        
+        openModalInNavigationButton = UIButton(type: .system)
+        openModalInNavigationButton?.setTitle("Open Modal In Navigation", for: .normal)
+        openModalInNavigationButton?.addTarget(output, action: #selector(ChildViewOutput.actionOpenModalInNavigation), for: .touchUpInside)
+        if let openModalInNavigationButton = openModalInNavigationButton {
+            view.addSubview(openModalInNavigationButton)
         }
         
         closeChildButton = UIButton(type: .system)
@@ -62,9 +70,17 @@ class ChildView: ModuleView, ChildViewInput {
             make.height.equalTo(50)
         }
         
-        closeChildButton?.snp.makeConstraints { make in
+        openModalInNavigationButton?.snp.makeConstraints { make in
             if let openModalButton = openModalButton {
                 make.top.equalTo(openModalButton.snp.bottom).offset(8)
+            }
+            make.centerX.equalToSuperview()
+            make.height.equalTo(50)
+        }
+        
+        closeChildButton?.snp.makeConstraints { make in
+            if let openModalInNavigationButton = openModalInNavigationButton {
+                make.top.equalTo(openModalInNavigationButton.snp.bottom).offset(8)
             }
             make.centerX.equalToSuperview()
             make.height.equalTo(50)

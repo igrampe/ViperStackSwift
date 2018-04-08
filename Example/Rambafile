@@ -1,0 +1,35 @@
+### Headers settings
+company: igrampe
+
+### Xcode project settings
+project_name: Example
+xcodeproj_path: ViperStackSwift.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: ViperStackSwift_Example
+
+# The file path for new modules
+project_file_path: ViperStackSwift/Modules
+
+# The Xcode group path to new modules
+project_group_path: ViperStackSwift/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: ViperStackSwift_Tests
+
+# The file path for new tests
+test_file_path: Tests
+
+# The Xcode group path to new tests
+test_group_path: Tests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+catalogs:
+- 'https://github.com/igrampe/viper_template'
+templates:
+- {name: swift_viper_template}

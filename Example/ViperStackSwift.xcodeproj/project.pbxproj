@@ -14,24 +14,43 @@
 		53AC8C0320792DB900449E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8BE320792DB900449E14 /* Main.storyboard */; };
 		53AC8C0420792DB900449E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AC8BE520792DB900449E14 /* Images.xcassets */; };
 		53AC8C0520792DB900449E14 /* ChildSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BE820792DB900449E14 /* ChildSegue.swift */; };
-		53AC8C0620792DB900449E14 /* RootAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEC20792DB900449E14 /* RootAssembly.swift */; };
-		53AC8C0720792DB900449E14 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BED20792DB900449E14 /* RootRouterInput.swift */; };
-		53AC8C0820792DB900449E14 /* RootInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */; };
-		53AC8C0920792DB900449E14 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BEF20792DB900449E14 /* RootInteractor.swift */; };
-		53AC8C0A20792DB900449E14 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF020792DB900449E14 /* RootRouter.swift */; };
-		53AC8C0B20792DB900449E14 /* RootViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF120792DB900449E14 /* RootViewIO.swift */; };
-		53AC8C0C20792DB900449E14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF220792DB900449E14 /* RootView.swift */; };
-		53AC8C0D20792DB900449E14 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF320792DB900449E14 /* RootPresenter.swift */; };
-		53AC8C0E20792DB900449E14 /* RootModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF420792DB900449E14 /* RootModuleIO.swift */; };
-		53AC8C0F20792DB900449E14 /* ChildInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */; };
-		53AC8C1020792DB900449E14 /* ChildAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF820792DB900449E14 /* ChildAssembly.swift */; };
-		53AC8C1120792DB900449E14 /* ChildRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BF920792DB900449E14 /* ChildRouter.swift */; };
-		53AC8C1220792DB900449E14 /* ChildViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFA20792DB900449E14 /* ChildViewIO.swift */; };
-		53AC8C1320792DB900449E14 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFB20792DB900449E14 /* ChildView.swift */; };
-		53AC8C1420792DB900449E14 /* ChildPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFC20792DB900449E14 /* ChildPresenter.swift */; };
-		53AC8C1520792DB900449E14 /* ChildInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFD20792DB900449E14 /* ChildInteractor.swift */; };
-		53AC8C1620792DB900449E14 /* ChildModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */; };
-		53AC8C1720792DB900449E14 /* ChildRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */; };
+		53AC8C27207A11F900449E14 /* ModalAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C1A207A11F900449E14 /* ModalAssembly.swift */; };
+		53AC8C28207A11F900449E14 /* ModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C1C207A11F900449E14 /* ModalPresenter.swift */; };
+		53AC8C29207A11F900449E14 /* ModalModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C1D207A11F900449E14 /* ModalModuleIO.swift */; };
+		53AC8C2A207A11F900449E14 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C1F207A11F900449E14 /* ModalView.swift */; };
+		53AC8C2B207A11F900449E14 /* ModalViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C20207A11F900449E14 /* ModalViewIO.swift */; };
+		53AC8C2C207A11F900449E14 /* ModalInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C22207A11F900449E14 /* ModalInteractor.swift */; };
+		53AC8C2D207A11F900449E14 /* ModalInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C23207A11F900449E14 /* ModalInteractorIO.swift */; };
+		53AC8C2E207A11F900449E14 /* ModalRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C25207A11F900449E14 /* ModalRouterInput.swift */; };
+		53AC8C2F207A11F900449E14 /* ModalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C26207A11F900449E14 /* ModalRouter.swift */; };
+		53AC8C3F207A13A200449E14 /* ChildAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C32207A13A200449E14 /* ChildAssembly.swift */; };
+		53AC8C40207A13A200449E14 /* ChildPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C34207A13A200449E14 /* ChildPresenter.swift */; };
+		53AC8C41207A13A200449E14 /* ChildModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C35207A13A200449E14 /* ChildModuleIO.swift */; };
+		53AC8C42207A13A200449E14 /* ChildViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C37207A13A200449E14 /* ChildViewIO.swift */; };
+		53AC8C43207A13A200449E14 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C38207A13A200449E14 /* ChildView.swift */; };
+		53AC8C44207A13A200449E14 /* ChildInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C3A207A13A200449E14 /* ChildInteractorIO.swift */; };
+		53AC8C45207A13A200449E14 /* ChildInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C3B207A13A200449E14 /* ChildInteractor.swift */; };
+		53AC8C46207A13A200449E14 /* ChildRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C3D207A13A200449E14 /* ChildRouter.swift */; };
+		53AC8C47207A13A200449E14 /* ChildRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C3E207A13A200449E14 /* ChildRouterInput.swift */; };
+		53AC8C57207A13D400449E14 /* RootAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C4A207A13D400449E14 /* RootAssembly.swift */; };
+		53AC8C58207A13D400449E14 /* RootPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C4C207A13D400449E14 /* RootPresenter.swift */; };
+		53AC8C59207A13D400449E14 /* RootModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C4D207A13D400449E14 /* RootModuleIO.swift */; };
+		53AC8C5A207A13D400449E14 /* RootViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C4F207A13D400449E14 /* RootViewIO.swift */; };
+		53AC8C5B207A13D400449E14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C50207A13D400449E14 /* RootView.swift */; };
+		53AC8C5C207A13D400449E14 /* RootInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C52207A13D400449E14 /* RootInteractorIO.swift */; };
+		53AC8C5D207A13D400449E14 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C53207A13D400449E14 /* RootInteractor.swift */; };
+		53AC8C5E207A13D400449E14 /* RootRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C55207A13D400449E14 /* RootRouterInput.swift */; };
+		53AC8C5F207A13D400449E14 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C56207A13D400449E14 /* RootRouter.swift */; };
+		53AC8C71207A182500449E14 /* PushAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C64207A182500449E14 /* PushAssembly.swift */; };
+		53AC8C72207A182500449E14 /* PushPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C66207A182500449E14 /* PushPresenter.swift */; };
+		53AC8C73207A182500449E14 /* PushModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C67207A182500449E14 /* PushModuleIO.swift */; };
+		53AC8C74207A182500449E14 /* PushViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C69207A182500449E14 /* PushViewIO.swift */; };
+		53AC8C75207A182500449E14 /* PushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C6A207A182500449E14 /* PushView.swift */; };
+		53AC8C76207A182500449E14 /* PushInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C6C207A182500449E14 /* PushInteractor.swift */; };
+		53AC8C77207A182500449E14 /* PushInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C6D207A182500449E14 /* PushInteractorIO.swift */; };
+		53AC8C78207A182500449E14 /* PushRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C6F207A182500449E14 /* PushRouter.swift */; };
+		53AC8C79207A182500449E14 /* PushRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C70207A182500449E14 /* PushRouterInput.swift */; };
+		53AC8C7D207A185200449E14 /* PushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AC8C7B207A183400449E14 /* PushTests.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F2212B4BC3A93F85DBCF6027 /* Pods_ViperStackSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAA04227DE4AE1893C4BFE6 /* Pods_ViperStackSwift_Example.framework */; };
 /* End PBXBuildFile section */
@@ -55,24 +74,43 @@
 		53AC8BE420792DB900449E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53AC8BE520792DB900449E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53AC8BE820792DB900449E14 /* ChildSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildSegue.swift; sourceTree = "<group>"; };
-		53AC8BEC20792DB900449E14 /* RootAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootAssembly.swift; sourceTree = "<group>"; };
-		53AC8BED20792DB900449E14 /* RootRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
-		53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractorIO.swift; sourceTree = "<group>"; };
-		53AC8BEF20792DB900449E14 /* RootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
-		53AC8BF020792DB900449E14 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
-		53AC8BF120792DB900449E14 /* RootViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewIO.swift; sourceTree = "<group>"; };
-		53AC8BF220792DB900449E14 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		53AC8BF320792DB900449E14 /* RootPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
-		53AC8BF420792DB900449E14 /* RootModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootModuleIO.swift; sourceTree = "<group>"; };
-		53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractorIO.swift; sourceTree = "<group>"; };
-		53AC8BF820792DB900449E14 /* ChildAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildAssembly.swift; sourceTree = "<group>"; };
-		53AC8BF920792DB900449E14 /* ChildRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouter.swift; sourceTree = "<group>"; };
-		53AC8BFA20792DB900449E14 /* ChildViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewIO.swift; sourceTree = "<group>"; };
-		53AC8BFB20792DB900449E14 /* ChildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
-		53AC8BFC20792DB900449E14 /* ChildPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildPresenter.swift; sourceTree = "<group>"; };
-		53AC8BFD20792DB900449E14 /* ChildInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractor.swift; sourceTree = "<group>"; };
-		53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildModuleIO.swift; sourceTree = "<group>"; };
-		53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouterInput.swift; sourceTree = "<group>"; };
+		53AC8C1A207A11F900449E14 /* ModalAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAssembly.swift; sourceTree = "<group>"; };
+		53AC8C1C207A11F900449E14 /* ModalPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresenter.swift; sourceTree = "<group>"; };
+		53AC8C1D207A11F900449E14 /* ModalModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalModuleIO.swift; sourceTree = "<group>"; };
+		53AC8C1F207A11F900449E14 /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		53AC8C20207A11F900449E14 /* ModalViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewIO.swift; sourceTree = "<group>"; };
+		53AC8C22207A11F900449E14 /* ModalInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalInteractor.swift; sourceTree = "<group>"; };
+		53AC8C23207A11F900449E14 /* ModalInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8C25207A11F900449E14 /* ModalRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalRouterInput.swift; sourceTree = "<group>"; };
+		53AC8C26207A11F900449E14 /* ModalRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalRouter.swift; sourceTree = "<group>"; };
+		53AC8C32207A13A200449E14 /* ChildAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildAssembly.swift; sourceTree = "<group>"; };
+		53AC8C34207A13A200449E14 /* ChildPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildPresenter.swift; sourceTree = "<group>"; };
+		53AC8C35207A13A200449E14 /* ChildModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildModuleIO.swift; sourceTree = "<group>"; };
+		53AC8C37207A13A200449E14 /* ChildViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewIO.swift; sourceTree = "<group>"; };
+		53AC8C38207A13A200449E14 /* ChildView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
+		53AC8C3A207A13A200449E14 /* ChildInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8C3B207A13A200449E14 /* ChildInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildInteractor.swift; sourceTree = "<group>"; };
+		53AC8C3D207A13A200449E14 /* ChildRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouter.swift; sourceTree = "<group>"; };
+		53AC8C3E207A13A200449E14 /* ChildRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildRouterInput.swift; sourceTree = "<group>"; };
+		53AC8C4A207A13D400449E14 /* RootAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootAssembly.swift; sourceTree = "<group>"; };
+		53AC8C4C207A13D400449E14 /* RootPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPresenter.swift; sourceTree = "<group>"; };
+		53AC8C4D207A13D400449E14 /* RootModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootModuleIO.swift; sourceTree = "<group>"; };
+		53AC8C4F207A13D400449E14 /* RootViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewIO.swift; sourceTree = "<group>"; };
+		53AC8C50207A13D400449E14 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		53AC8C52207A13D400449E14 /* RootInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8C53207A13D400449E14 /* RootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		53AC8C55207A13D400449E14 /* RootRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouterInput.swift; sourceTree = "<group>"; };
+		53AC8C56207A13D400449E14 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		53AC8C64207A182500449E14 /* PushAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAssembly.swift; sourceTree = "<group>"; };
+		53AC8C66207A182500449E14 /* PushPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushPresenter.swift; sourceTree = "<group>"; };
+		53AC8C67207A182500449E14 /* PushModuleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushModuleIO.swift; sourceTree = "<group>"; };
+		53AC8C69207A182500449E14 /* PushViewIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewIO.swift; sourceTree = "<group>"; };
+		53AC8C6A207A182500449E14 /* PushView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushView.swift; sourceTree = "<group>"; };
+		53AC8C6C207A182500449E14 /* PushInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushInteractor.swift; sourceTree = "<group>"; };
+		53AC8C6D207A182500449E14 /* PushInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushInteractorIO.swift; sourceTree = "<group>"; };
+		53AC8C6F207A182500449E14 /* PushRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushRouter.swift; sourceTree = "<group>"; };
+		53AC8C70207A182500449E14 /* PushRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushRouterInput.swift; sourceTree = "<group>"; };
+		53AC8C7B207A183400449E14 /* PushTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ViperStackSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperStackSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ViperStackSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperStackSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,58 +192,244 @@
 		53AC8BE920792DB900449E14 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				53AC8BEA20792DB900449E14 /* Push */,
-				53AC8BEB20792DB900449E14 /* Root */,
-				53AC8BF520792DB900449E14 /* Modal */,
-				53AC8BF620792DB900449E14 /* Child */,
+				53AC8C62207A182500449E14 /* Push */,
+				53AC8C48207A13D400449E14 /* Root */,
+				53AC8C30207A13A200449E14 /* Child */,
+				53AC8C18207A11F900449E14 /* Modal */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		53AC8BEA20792DB900449E14 /* Push */ = {
+		53AC8C18207A11F900449E14 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Push;
-			sourceTree = "<group>";
-		};
-		53AC8BEB20792DB900449E14 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				53AC8BEC20792DB900449E14 /* RootAssembly.swift */,
-				53AC8BED20792DB900449E14 /* RootRouterInput.swift */,
-				53AC8BEE20792DB900449E14 /* RootInteractorIO.swift */,
-				53AC8BEF20792DB900449E14 /* RootInteractor.swift */,
-				53AC8BF020792DB900449E14 /* RootRouter.swift */,
-				53AC8BF120792DB900449E14 /* RootViewIO.swift */,
-				53AC8BF220792DB900449E14 /* RootView.swift */,
-				53AC8BF320792DB900449E14 /* RootPresenter.swift */,
-				53AC8BF420792DB900449E14 /* RootModuleIO.swift */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		53AC8BF520792DB900449E14 /* Modal */ = {
-			isa = PBXGroup;
-			children = (
+				53AC8C19207A11F900449E14 /* Assembly */,
+				53AC8C1B207A11F900449E14 /* Presenter */,
+				53AC8C1E207A11F900449E14 /* View */,
+				53AC8C21207A11F900449E14 /* Interactor */,
+				53AC8C24207A11F900449E14 /* Router */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
 		};
-		53AC8BF620792DB900449E14 /* Child */ = {
+		53AC8C19207A11F900449E14 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				53AC8BF720792DB900449E14 /* ChildInteractorIO.swift */,
-				53AC8BF820792DB900449E14 /* ChildAssembly.swift */,
-				53AC8BF920792DB900449E14 /* ChildRouter.swift */,
-				53AC8BFA20792DB900449E14 /* ChildViewIO.swift */,
-				53AC8BFB20792DB900449E14 /* ChildView.swift */,
-				53AC8BFC20792DB900449E14 /* ChildPresenter.swift */,
-				53AC8BFD20792DB900449E14 /* ChildInteractor.swift */,
-				53AC8BFE20792DB900449E14 /* ChildModuleIO.swift */,
-				53AC8BFF20792DB900449E14 /* ChildRouterInput.swift */,
+				53AC8C1A207A11F900449E14 /* ModalAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		53AC8C1B207A11F900449E14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C1C207A11F900449E14 /* ModalPresenter.swift */,
+				53AC8C1D207A11F900449E14 /* ModalModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53AC8C1E207A11F900449E14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C1F207A11F900449E14 /* ModalView.swift */,
+				53AC8C20207A11F900449E14 /* ModalViewIO.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53AC8C21207A11F900449E14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C22207A11F900449E14 /* ModalInteractor.swift */,
+				53AC8C23207A11F900449E14 /* ModalInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		53AC8C24207A11F900449E14 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C25207A11F900449E14 /* ModalRouterInput.swift */,
+				53AC8C26207A11F900449E14 /* ModalRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		53AC8C30207A13A200449E14 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C31207A13A200449E14 /* Assembly */,
+				53AC8C33207A13A200449E14 /* Presenter */,
+				53AC8C36207A13A200449E14 /* View */,
+				53AC8C39207A13A200449E14 /* Interactor */,
+				53AC8C3C207A13A200449E14 /* Router */,
 			);
 			path = Child;
+			sourceTree = "<group>";
+		};
+		53AC8C31207A13A200449E14 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C32207A13A200449E14 /* ChildAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		53AC8C33207A13A200449E14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C34207A13A200449E14 /* ChildPresenter.swift */,
+				53AC8C35207A13A200449E14 /* ChildModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53AC8C36207A13A200449E14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C37207A13A200449E14 /* ChildViewIO.swift */,
+				53AC8C38207A13A200449E14 /* ChildView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53AC8C39207A13A200449E14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C3A207A13A200449E14 /* ChildInteractorIO.swift */,
+				53AC8C3B207A13A200449E14 /* ChildInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		53AC8C3C207A13A200449E14 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C3D207A13A200449E14 /* ChildRouter.swift */,
+				53AC8C3E207A13A200449E14 /* ChildRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		53AC8C48207A13D400449E14 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C49207A13D400449E14 /* Assembly */,
+				53AC8C4B207A13D400449E14 /* Presenter */,
+				53AC8C4E207A13D400449E14 /* View */,
+				53AC8C51207A13D400449E14 /* Interactor */,
+				53AC8C54207A13D400449E14 /* Router */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		53AC8C49207A13D400449E14 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C4A207A13D400449E14 /* RootAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		53AC8C4B207A13D400449E14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C4C207A13D400449E14 /* RootPresenter.swift */,
+				53AC8C4D207A13D400449E14 /* RootModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53AC8C4E207A13D400449E14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C4F207A13D400449E14 /* RootViewIO.swift */,
+				53AC8C50207A13D400449E14 /* RootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53AC8C51207A13D400449E14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C52207A13D400449E14 /* RootInteractorIO.swift */,
+				53AC8C53207A13D400449E14 /* RootInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		53AC8C54207A13D400449E14 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C55207A13D400449E14 /* RootRouterInput.swift */,
+				53AC8C56207A13D400449E14 /* RootRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		53AC8C62207A182500449E14 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C63207A182500449E14 /* Assembly */,
+				53AC8C65207A182500449E14 /* Presenter */,
+				53AC8C68207A182500449E14 /* View */,
+				53AC8C6B207A182500449E14 /* Interactor */,
+				53AC8C6E207A182500449E14 /* Router */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		53AC8C63207A182500449E14 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C64207A182500449E14 /* PushAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		53AC8C65207A182500449E14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C66207A182500449E14 /* PushPresenter.swift */,
+				53AC8C67207A182500449E14 /* PushModuleIO.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		53AC8C68207A182500449E14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C69207A182500449E14 /* PushViewIO.swift */,
+				53AC8C6A207A182500449E14 /* PushView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53AC8C6B207A182500449E14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C6C207A182500449E14 /* PushInteractor.swift */,
+				53AC8C6D207A182500449E14 /* PushInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		53AC8C6E207A182500449E14 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C6F207A182500449E14 /* PushRouter.swift */,
+				53AC8C70207A182500449E14 /* PushRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		53AC8C7A207A183400449E14 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				53AC8C7B207A183400449E14 /* PushTests.swift */,
+			);
+			path = Push;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -253,6 +477,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				53AC8C7A207A183400449E14 /* Push */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -456,27 +681,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AC8C1620792DB900449E14 /* ChildModuleIO.swift in Sources */,
-				53AC8C0A20792DB900449E14 /* RootRouter.swift in Sources */,
-				53AC8C1720792DB900449E14 /* ChildRouterInput.swift in Sources */,
+				53AC8C2F207A11F900449E14 /* ModalRouter.swift in Sources */,
+				53AC8C42207A13A200449E14 /* ChildViewIO.swift in Sources */,
+				53AC8C78207A182500449E14 /* PushRouter.swift in Sources */,
+				53AC8C77207A182500449E14 /* PushInteractorIO.swift in Sources */,
+				53AC8C5D207A13D400449E14 /* RootInteractor.swift in Sources */,
 				53AC8C0120792DB900449E14 /* AppDelegate.swift in Sources */,
-				53AC8C1520792DB900449E14 /* ChildInteractor.swift in Sources */,
-				53AC8C0620792DB900449E14 /* RootAssembly.swift in Sources */,
-				53AC8C1420792DB900449E14 /* ChildPresenter.swift in Sources */,
-				53AC8C1220792DB900449E14 /* ChildViewIO.swift in Sources */,
-				53AC8C0920792DB900449E14 /* RootInteractor.swift in Sources */,
-				53AC8C1320792DB900449E14 /* ChildView.swift in Sources */,
-				53AC8C0C20792DB900449E14 /* RootView.swift in Sources */,
-				53AC8C0720792DB900449E14 /* RootRouterInput.swift in Sources */,
-				53AC8C1020792DB900449E14 /* ChildAssembly.swift in Sources */,
-				53AC8C0D20792DB900449E14 /* RootPresenter.swift in Sources */,
+				53AC8C74207A182500449E14 /* PushViewIO.swift in Sources */,
+				53AC8C44207A13A200449E14 /* ChildInteractorIO.swift in Sources */,
+				53AC8C45207A13A200449E14 /* ChildInteractor.swift in Sources */,
+				53AC8C29207A11F900449E14 /* ModalModuleIO.swift in Sources */,
+				53AC8C75207A182500449E14 /* PushView.swift in Sources */,
+				53AC8C2B207A11F900449E14 /* ModalViewIO.swift in Sources */,
+				53AC8C5E207A13D400449E14 /* RootRouterInput.swift in Sources */,
+				53AC8C73207A182500449E14 /* PushModuleIO.swift in Sources */,
+				53AC8C27207A11F900449E14 /* ModalAssembly.swift in Sources */,
+				53AC8C72207A182500449E14 /* PushPresenter.swift in Sources */,
+				53AC8C41207A13A200449E14 /* ChildModuleIO.swift in Sources */,
+				53AC8C28207A11F900449E14 /* ModalPresenter.swift in Sources */,
+				53AC8C5C207A13D400449E14 /* RootInteractorIO.swift in Sources */,
+				53AC8C71207A182500449E14 /* PushAssembly.swift in Sources */,
+				53AC8C2D207A11F900449E14 /* ModalInteractorIO.swift in Sources */,
+				53AC8C3F207A13A200449E14 /* ChildAssembly.swift in Sources */,
 				53AC8C0520792DB900449E14 /* ChildSegue.swift in Sources */,
-				53AC8C0820792DB900449E14 /* RootInteractorIO.swift in Sources */,
-				53AC8C1120792DB900449E14 /* ChildRouter.swift in Sources */,
-				53AC8C0F20792DB900449E14 /* ChildInteractorIO.swift in Sources */,
-				53AC8C0B20792DB900449E14 /* RootViewIO.swift in Sources */,
+				53AC8C5F207A13D400449E14 /* RootRouter.swift in Sources */,
+				53AC8C43207A13A200449E14 /* ChildView.swift in Sources */,
+				53AC8C47207A13A200449E14 /* ChildRouterInput.swift in Sources */,
+				53AC8C76207A182500449E14 /* PushInteractor.swift in Sources */,
+				53AC8C2E207A11F900449E14 /* ModalRouterInput.swift in Sources */,
+				53AC8C40207A13A200449E14 /* ChildPresenter.swift in Sources */,
 				53AC8C0020792DB900449E14 /* AppAssembly.swift in Sources */,
-				53AC8C0E20792DB900449E14 /* RootModuleIO.swift in Sources */,
+				53AC8C2A207A11F900449E14 /* ModalView.swift in Sources */,
+				53AC8C2C207A11F900449E14 /* ModalInteractor.swift in Sources */,
+				53AC8C79207A182500449E14 /* PushRouterInput.swift in Sources */,
+				53AC8C46207A13A200449E14 /* ChildRouter.swift in Sources */,
+				53AC8C57207A13D400449E14 /* RootAssembly.swift in Sources */,
+				53AC8C5B207A13D400449E14 /* RootView.swift in Sources */,
+				53AC8C58207A13D400449E14 /* RootPresenter.swift in Sources */,
+				53AC8C5A207A13D400449E14 /* RootViewIO.swift in Sources */,
+				53AC8C59207A13D400449E14 /* RootModuleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +728,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				53AC8C7D207A185200449E14 /* PushTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

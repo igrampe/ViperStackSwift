@@ -22,9 +22,9 @@ public class ChildAssembly: Assembly {
         container.register(ChildRouter.self) { (r, view: TransitionHandler) in
             let router = ChildRouter()
             router.transitionHandler = view
-//            if let view = view as? ChildViewInput {
-//                router.childOutput = r.resolve(ChildPresenter.self, argument: view)
-//            }
+            if let view = view as? ChildViewInput {
+                router.modalOutput = r.resolve(ChildPresenter.self, argument: view)
+            }
             return router
         }
         
@@ -50,7 +50,7 @@ public class ChildAssembly: Assembly {
     
     class var assembler: Assembler {
         return Assembler([
-//            ModalAssembly(),
+            ModalAssembly(),
             ])
     }
 }

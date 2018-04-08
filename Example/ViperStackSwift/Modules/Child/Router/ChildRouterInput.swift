@@ -10,4 +10,6 @@ import Foundation
 
 protocol ChildRouterInput {
     
+    func openModalModule(inNavigation: Bool)
+    func closModalModule()
 }

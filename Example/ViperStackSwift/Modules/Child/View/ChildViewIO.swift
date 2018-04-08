@@ -14,5 +14,6 @@ protocol ChildViewInput: class {
 
 @objc protocol ChildViewOutput {
     func actionOpenModal()
+    func actionOpenModalInNavigation()
     func actionClose()
 }
