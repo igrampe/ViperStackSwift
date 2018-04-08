@@ -7,13 +7,13 @@
 
 ## What is it?
 
-`ViperStackSwift` is a library, that provide mechanism for connection between `VIPER` modules.
+`ViperStackSwift` is a library, that provides mechanism for connection between [VIPER](https://github.com/strongself/The-Book-of-VIPER) modules.
 
 Also there are some base classes and protocols for `VIPER` module:
-- ModuleInput
-- ModuleOutput
-- ModuleRouter
-- ModuleView
+- `ModuleInput`
+- `ModuleOutput`
+- `ModuleRouter`
+- `ModuleView`
 
 With this library you can navigate between modules objects named `Segues`.
 
@@ -31,11 +31,12 @@ To perform a segue, create a `Segue` object, and call from your `transitionHandl
 openModule(withSegue segue: Segue?, linkClosure closure: ModuleLinkClosure?) -> ModuleOpenPromise
 ```
 
-
-
 By default you should use `UIViewController` for `transitionHandler`, there is an extension for it.
 
 `linkClosure` is needed to connect parent module as `moduleOutput` with child module.  In `linkClosure` you also can call some methods from child module, for example, pass a parameter from parent to child.
+
+## Lifehack
+To save time, you can use [generamba](https://github.com/rambler-digital-solutions/Generamba) with [this](https://github.com/igrampe/generamba_templates/tree/master/swift_viper_template) module  template to generate modules.
 
 ## Language
 ViperStackSwift is wirtten in pure Swift.
@@ -57,7 +58,7 @@ pod 'ViperStackSwift'
 
 ## Author
 
-igrampe, igrampe@gmail.com
+[Semyon Belokovsky](mailto://igrampe@gmail.com)
 
 ## License
 
