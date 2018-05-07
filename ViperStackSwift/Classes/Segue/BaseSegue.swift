@@ -1,9 +1,8 @@
 //
 //  BaseSegue.swift
-//  Pods
+//  ViperStackSwift
 //
-//  Created by Semyon Belokovsky on 02/07/16.
-//
+//  Created by Semyon Belokovsky on 08/04/2018.
 //
 
 import UIKit
@@ -11,7 +10,7 @@ import UIKit
 open class BaseSegue: Segue {
     
     public weak var source: UIViewController?
-    public var destination: UIViewController?
+    public weak var destination: UIViewController?
     public var animated: Bool = true
     
     public init() {

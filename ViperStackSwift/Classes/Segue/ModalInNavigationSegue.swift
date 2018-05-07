@@ -3,7 +3,6 @@
 //  ViperStackSwift
 //
 //  Created by Semyon Belokovsky on 08/04/2018.
-//  Copyright © 2018 CocoaPods. All rights reserved.
 //
 
 import Foundation
