@@ -9,7 +9,5 @@
 
 
 class ModalInteractor: ModalInteractorInput {
-
     weak var output: ModalInteractorOutput?
-
 }

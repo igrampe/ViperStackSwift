@@ -11,8 +11,7 @@
 import Foundation
 import ViperStackSwift
 
-class PushPresenter: PushViewOutput, PushInteractorOutput, PushModuleInput {
-    
+class PushPresenter: PushViewOutput, PushInteractorOutput, PushModuleInput {    
     var router: PushRouterInput?
     weak var view: PushViewInput?
     var interactor: PushInteractorInput?

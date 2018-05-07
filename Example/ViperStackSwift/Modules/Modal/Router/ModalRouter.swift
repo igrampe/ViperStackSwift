@@ -11,10 +11,9 @@
 import Foundation
 import ViperStackSwift
 
-class ModalRouter: ModuleRouter, ModalRouterInput {
-    
+class ModalRouter: ModuleRouter, ModalRouterInput {    
     var pushSegue: Segue?
-    var pushOutput: PushModuleOutput?
+    weak var pushOutput: PushModuleOutput?
     
     func openPushModule() {
         pushSegue = PushSegue()

@@ -12,6 +12,6 @@ protocol RootInteractorInput {
     
 }
 
-protocol RootInteractorOutput {
+protocol RootInteractorOutput: class {
     
 }

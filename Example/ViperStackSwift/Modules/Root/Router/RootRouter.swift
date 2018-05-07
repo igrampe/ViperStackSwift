@@ -9,10 +9,9 @@
 import Foundation
 import ViperStackSwift
 
-class RootRouter: ModuleRouter, RootRouterInput {
-    
+class RootRouter: ModuleRouter, RootRouterInput {    
     var childSegue: Segue?
-    var childOutput: ChildModuleOutput?
+    weak var childOutput: ChildModuleOutput?
     
     func openChildModule() {
         childSegue = ChildSegue()

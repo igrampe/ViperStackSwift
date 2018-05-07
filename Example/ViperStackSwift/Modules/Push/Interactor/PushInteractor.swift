@@ -9,7 +9,5 @@
 
 
 class PushInteractor: PushInteractorInput {
-
     weak var output: PushInteractorOutput?
-
 }

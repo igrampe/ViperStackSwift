@@ -9,5 +9,5 @@
 import Foundation
 
 class RootInteractor: RootInteractorInput {
-    var output: RootInteractorOutput?
+    weak var output: RootInteractorOutput?
 }

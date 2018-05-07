@@ -12,6 +12,6 @@ protocol ChildInteractorInput {
     
 }
 
-protocol ChildInteractorOutput {
+protocol ChildInteractorOutput: class {
     
 }

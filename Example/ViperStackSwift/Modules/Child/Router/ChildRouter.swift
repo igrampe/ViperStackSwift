@@ -10,9 +10,8 @@ import Foundation
 import ViperStackSwift
 
 class ChildRouter: ModuleRouter, ChildRouterInput {
-    
     var modalSegue: Segue?
-    var modalOutput: ModalModuleOutput?
+    weak var modalOutput: ModalModuleOutput?
     
     func openModalModule(inNavigation: Bool) {
         if (inNavigation) {

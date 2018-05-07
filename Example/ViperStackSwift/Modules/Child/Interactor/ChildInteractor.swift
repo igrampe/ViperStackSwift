@@ -9,5 +9,5 @@
 import Foundation
 
 class ChildInteractor: ChildInteractorInput {
-    var output: ChildInteractorOutput?
+    weak var output: ChildInteractorOutput?
 }
