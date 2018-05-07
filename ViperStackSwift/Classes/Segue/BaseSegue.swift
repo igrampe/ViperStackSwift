@@ -10,7 +10,7 @@ import UIKit
 open class BaseSegue: Segue {
     
     public weak var source: UIViewController?
-    public weak var destination: UIViewController?
+    public var destination: UIViewController?
     public var animated: Bool = true
     
     public init() {
