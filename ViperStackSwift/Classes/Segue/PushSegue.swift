@@ -13,6 +13,7 @@ public protocol PushSegueDelegate: class {
 
 public class PushSegue: BaseSegue {
     public weak var delegate: PushSegueDelegate?
+    var interactionCancelled = false
     
     open override func perform() {
         guard let destination = destination else {
@@ -22,6 +23,7 @@ public class PushSegue: BaseSegue {
         source?.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         source?.navigationController?.interactivePopGestureRecognizer?.delegate = self
         source?.navigationController?.interactivePopGestureRecognizer?.addTarget(self, action: #selector(handleScreenPan(gesture:)))
+        source?.navigationController?.delegate = self
     }
     
     open override func unwind() {
@@ -36,9 +38,12 @@ public class PushSegue: BaseSegue {
         destination?.navigationController?.popToViewController(viewController, animated: animated)
     }
     
-    @objc func handleScreenPan(gesture: UIGestureRecognizer) {
+    @objc func handleScreenPan(gesture: UIScreenEdgePanGestureRecognizer) {
+        print(gesture.state.rawValue)
         if (gesture.state == .ended) {
-            delegate?.pushSegueScreenPanDidFinish(pushSegue: self)
+            if (!interactionCancelled) {
+                delegate?.pushSegueScreenPanDidFinish(pushSegue: self)
+            }
         }
     }
 }
@@ -46,5 +51,19 @@ public class PushSegue: BaseSegue {
 extension PushSegue: UIGestureRecognizerDelegate {
     public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
+    }
+}
+
+extension PushSegue: UINavigationControllerDelegate {
+    public func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        if #available(iOS 11, *) {
+            navigationController.topViewController?.transitionCoordinator?.notifyWhenInteractionChanges({ [weak self] context in
+                self?.interactionCancelled = false
+                if (context.isCancelled) {
+                    self?.interactionCancelled = true
+                }
+            })
+        }
+        
     }
 }
