@@ -7,15 +7,11 @@
 
 import UIKit
 
-open class BaseSegue: Segue {
+open class BaseSegue: NSObject, Segue {
     
     public weak var source: UIViewController?
     public var destination: UIViewController?
     public var animated: Bool = true
-    
-    public init() {
-        
-    }
     
     open func perform() {
         
