@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ViperStackSwift'
-  s.version          = '0.9.4'
+  s.version          = '0.9.5'
   s.summary          = 'ViperStackSwift helps you with VIPER'
   s.swift_version    = '4.0'
 
