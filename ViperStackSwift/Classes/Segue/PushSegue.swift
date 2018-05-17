@@ -19,11 +19,10 @@ public class PushSegue: BaseSegue {
         guard let destination = destination else {
             return
         }
-        source?.navigationController?.pushViewController(destination, animated: animated)
         source?.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         source?.navigationController?.interactivePopGestureRecognizer?.delegate = self
-        source?.navigationController?.interactivePopGestureRecognizer?.addTarget(self, action: #selector(handleScreenPan(gesture:)))
         source?.navigationController?.delegate = self
+        source?.navigationController?.pushViewController(destination, animated: animated)
     }
     
     open override func unwind() {
@@ -37,15 +36,6 @@ public class PushSegue: BaseSegue {
     open func unwind(to viewController: UIViewController) {
         destination?.navigationController?.popToViewController(viewController, animated: animated)
     }
-    
-    @objc func handleScreenPan(gesture: UIScreenEdgePanGestureRecognizer) {
-        print(gesture.state.rawValue)
-        if (gesture.state == .ended) {
-            if (!interactionCancelled) {
-                delegate?.pushSegueScreenPanDidFinish(pushSegue: self)
-            }
-        }
-    }
 }
 
 extension PushSegue: UIGestureRecognizerDelegate {
@@ -56,14 +46,24 @@ extension PushSegue: UIGestureRecognizerDelegate {
 
 extension PushSegue: UINavigationControllerDelegate {
     public func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
-        if #available(iOS 11, *) {
+        if #available(iOS 10, *) {
             navigationController.topViewController?.transitionCoordinator?.notifyWhenInteractionChanges({ [weak self] context in
-                self?.interactionCancelled = false
-                if (context.isCancelled) {
-                    self?.interactionCancelled = true
+                if (!context.isCancelled) {
+                    guard let welf = self else {
+                        return
+                    }
+                    welf.delegate?.pushSegueScreenPanDidFinish(pushSegue: welf)
+                }
+            })
+        } else {
+            navigationController.topViewController?.transitionCoordinator?.notifyWhenInteractionEnds({ [weak self] (context) in
+                if (!context.isCancelled) {
+                    guard let welf = self else {
+                        return
+                    }
+                    welf.delegate?.pushSegueScreenPanDidFinish(pushSegue: welf)
                 }
             })
         }
-        
     }
 }
