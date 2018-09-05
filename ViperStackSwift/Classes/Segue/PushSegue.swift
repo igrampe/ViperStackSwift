@@ -66,4 +66,12 @@ extension PushSegue: UINavigationControllerDelegate {
             })
         }
     }
+    
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        if operation == .pop {
+            delegate?.pushSegueScreenPanDidFinish(pushSegue: self)
+        }
+        
+        return nil
+    }
 }
